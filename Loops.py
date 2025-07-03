@@ -11,7 +11,7 @@ while n <= 10:
     n += 1
 
 # Print numbers from 1 to 10 using a while loop.
-print("\n ===========================")
+print("\n===========================")
 n = 1
 
 while n <= 10:
