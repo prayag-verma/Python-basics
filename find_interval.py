@@ -4,7 +4,7 @@ def find_and_sort_intervals(intervals):
     # Step 1: Firstly, map each start point to its corresponding interval
     interval_map = {start: (start, end) for start, end in intervals}
 
-    # Step 2: Then, identifying all end points from the intervals
+    # Step 2: Then, identifying all end points from the interval
     end_points = {end for _, end in intervals}
 
     # Step 3: Next, finding out the actual starting point (not present in any end)
@@ -27,7 +27,7 @@ def find_and_sort_intervals(intervals):
     return sorted_intervals
 
 
-# Finally, let's call the function 'find_and_sort_intervals' and run the code
+# Finally, call the function 'find_and_sort_intervals' and run the code
 if __name__ == "__main__":
     intervals_input = [(5, 7), (15, 29), (7, 9), (1, 5), (12, 15), (29, 34), (9, 12)]
     result = find_and_sort_intervals(intervals_input)
