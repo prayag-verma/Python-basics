@@ -27,10 +27,9 @@ def find_and_sort_intervals(intervals):
     return sorted_intervals
 
 
-# Finally, call the function 'find_and_sort_intervals' and run the code
+# Finally, call the function 'find and sort intervals' and run the code
 if __name__ == "__main__":
     intervals_input = [(5, 7), (15, 29), (7, 9), (1, 5), (12, 15), (29, 34), (9, 12)]
     result = find_and_sort_intervals(intervals_input)
     print(f"Output: {result}")
-
 
