@@ -27,4 +27,4 @@ data = [
     ["Phoebe", "60"]
 ]
 
-print(get_max_average(data))  # Expected output: 95
+print(get_max_average(data))
