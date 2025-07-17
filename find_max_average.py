@@ -18,7 +18,7 @@ def get_max_average(grades_list):
 
     return int(max_avg)
 
-
+# Sample input
 data = [
     ["Rachel", "100"],
     ["Phoebe", "80"],
