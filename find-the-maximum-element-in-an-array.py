@@ -25,7 +25,7 @@ for i in range(len(ar)):
         break
 
 
-# Method 5: Sorting without using build-in function and then printing the last element  
+# Method 5: Sorting in ascending order without using build-in function and then printing the last element  
 ar2 = [3, 17, 2, 10, 8]
 
 for i in range(len(ar2)):
@@ -34,5 +34,18 @@ for i in range(len(ar2)):
             # Swapping elements if they are in the wrong order
             ar2[i], ar2[j] = ar2[j], ar2[i]
 
-print("Sorted array:", ar2)
-print("Max element value:", ar2[len(ar2)-1])
+print("Sorted array in ascending order:", ar2)
+print("Last element value:", ar2[len(ar2)-1])
+
+
+# Method 6: Sorting in descending order without using build-in function and then printing the first element
+ar2 = [3, 17, 2, 10, 8]
+
+for i in range(len(ar2)):
+    for j in range(i + 1, len(ar2)):
+        if ar2[i] < ar2[j]:           
+            # Swapping elements if they are in the wrong order
+            ar2[i], ar2[j] = ar2[j], ar2[i]
+
+print("Sorted array in descending:", ar2)
+print("First element value:", ar2[0])
