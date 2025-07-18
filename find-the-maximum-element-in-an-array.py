@@ -23,15 +23,16 @@ for i in range(len(ar)):
     if i == 0:
         print("First element of the sorted array in descending order:", ar[i])
         break
-    
+
+
+# Method 5: Sorting without using build-in function and then printing the last element  
 ar2 = [3, 17, 2, 10, 8]
 
-my_ar =[]
-
 for i in range(len(ar2)):
-    for j in range(len(ar2)):
-        if ar2[i] > ar2[j + 1]:
-            my_ar.append(ar2[i])
-        else:
-            my_ar.append(ar2[j])
-print("Maximum element in the array using nested loops:",my_ar)
+    for j in range(i + 1, len(ar2)):
+        if ar2[i] > ar2[j]:           
+            # Swapping elements if they are in the wrong order
+            ar2[i], ar2[j] = ar2[j], ar2[i]
+
+print("Sorted array:", ar2)
+print("Max element value:", ar2[len(ar2)-1])
