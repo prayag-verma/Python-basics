@@ -31,7 +31,7 @@ ar2 = [3, 17, 2, 10, 8]
 for i in range(len(ar2)):
     for j in range(i + 1, len(ar2)):
         if ar2[i] > ar2[j]:           
-            # Swapping elements if they are in the wrong order
+            # Swapping elements
             ar2[i], ar2[j] = ar2[j], ar2[i]
 
 print("Sorted array in ascending order:", ar2)
@@ -44,7 +44,7 @@ ar2 = [3, 17, 2, 10, 8]
 for i in range(len(ar2)):
     for j in range(i + 1, len(ar2)):
         if ar2[i] < ar2[j]:           
-            # Swapping elements if they are in the wrong order
+            # Swapping elements
             ar2[i], ar2[j] = ar2[j], ar2[i]
 
 print("Sorted array in descending:", ar2)
