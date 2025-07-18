@@ -37,7 +37,6 @@ for i in range(len(ar2)):
 print("Sorted array in ascending order:", ar2)
 print("Last element value:", ar2[len(ar2)-1])
 
-
 # Method 6: Sorting in descending order without using build-in function and then printing the first element
 ar2 = [3, 17, 2, 10, 8]
 
