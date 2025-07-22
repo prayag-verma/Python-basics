@@ -17,7 +17,7 @@ def find_and_sort_intervals(intervals):
     if start_point is None:
         raise ValueError("No unique starting point found in the interval list.")
 
-    # Step 4: Now,  the loop of intervals in order
+    # Step 4: Now, following the loop of intervals in order
     sorted_intervals = []
     while start_point in interval_map:
         current = interval_map[start_point]
